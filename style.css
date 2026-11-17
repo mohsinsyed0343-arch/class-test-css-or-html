@@ -254,13 +254,6 @@ body{
 
  
 
-
-body {
-    background-color: #141414;
-    color: white;
-    font-family: Arial, sans-serif;
-}
-
 .container {
     width: 90%;
     margin: 50px auto;
@@ -272,7 +265,7 @@ body {
     width: 50%;
 }
 
-.faq {
+.taq {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -289,19 +282,19 @@ body {
     font-size: 13px;
 }
 
-.faq h3 {
+.taq h3 {
     font-size: 14px;
     font-weight: normal;
     flex: 1;
 }
 
-.faq span {
+.taq span {
     font-size: 22px;
     cursor: pointer;
     margin-left: auto;
 }
 
-.faq p {
+.taq p {
     color: #999999;
     font-size: 12px;
     margin-top: 12px;
@@ -839,7 +832,7 @@ p{
         flex-wrap: wrap;
     }
 
-    .sub-containar img,
+    /* .sub-containar img, */
     .sup-containar img {
         margin-left: 10px;
         padding: 5px;
@@ -867,11 +860,11 @@ p{
         gap: 15px;
     }
 
-    .faq {
+    .taq {
         padding: 15px 5px;
     }
 
-    .faq h3 {
+    .taq h3 {
         font-size: 13px;
     }
 
